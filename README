@@ -1,0 +1,17 @@
+# PycTacToe
+
+## Prérequis
+
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Alexandre-Breault/PycTacToe?style=for-the-badge)
+
+## Le jeux mythique tic-tac-toe
+
+Pour lancer le jeu rien de compliquer utilisé la commande suivante
+
+```sh
+py.exe \main.py
+```
+
+## License
+
+MIT
