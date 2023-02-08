@@ -13,7 +13,7 @@ class Player:
         self.name = new_name
         
     def toString(self):
-        return self.name
+        return self.color+self.name+str(Color.RESET.value)
     
-    def get_symbole(self):
-        return self.color+self.symbole+str(Color.RESET.value)
+    def get_symbole(self) -> str:
+        return self.color+self.symbole.value+str(Color.RESET.value)

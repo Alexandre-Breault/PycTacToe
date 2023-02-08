@@ -8,15 +8,7 @@
       "name": "Python : fichier actif",
       "type": "python",
       "request": "launch",
-      "program": "${file}",
-      "console": "integratedTerminal",
-      "justMyCode": true
-    },
-    {
-      "name": "Python : fichier actif",
-      "type": "python",
-      "request": "launch",
-      "program": "/casse_brique/main.py",
+      "program": "main.py",
       "console": "integratedTerminal",
       "justMyCode": true
     }

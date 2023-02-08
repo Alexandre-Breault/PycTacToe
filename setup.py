@@ -9,7 +9,7 @@ class Setup:
         self.player_number = self.config[Config.nombre_participant.name]
         self.__list_color = list(Color)
         self.color = (Color[self.config[Config.color_player.name]].value, Color[self.config[Config.color_player2.name]].value)
-        self.__list_player = []
+        self.__list_player = list()
         self.symbole = list(Symbole)
         self.__create_player()
         
@@ -18,7 +18,7 @@ class Setup:
         Permet de créer les joueurs et les ajouts a la liste player
         '''
         for i in range(self.player_number):
-            self.__list_player.append(Player(name=("player ",str(i)),symbole=self.symbole[i], color=self.color[i]))
+            self.__list_player.append(Player(name=("player "+str(i)),symbole=self.symbole[i], color=self.color[i]))
 
     def __read_config(self) -> dict:
         '''
